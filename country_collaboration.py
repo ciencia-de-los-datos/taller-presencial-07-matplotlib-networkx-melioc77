@@ -124,6 +124,7 @@ def plot_country_collaboration(countries, co_occurrences):
         x, y = pos[country]
         plt.text(x, y, country, fontsize=7, ha="center", va="center")
 
+
     plt.savefig("network.png")
 
 
